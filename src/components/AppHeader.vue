@@ -2,7 +2,7 @@
 export default {
   data() {
     return {
-      message: 'Template Vite + Vue'
+      
     }
   },
   
@@ -12,8 +12,11 @@ export default {
 <template>
   <div>
     <header>
+      <div>
+
+      </div>
       <h1>
-        {{ message }}
+        Yu-Gi-Oh! Api
       </h1>
 
     </header>
@@ -22,11 +25,12 @@ export default {
 
 <style scoped>
 header{
-  background-color: aquamarine;
+  border: 2px solid black;
+  background-color: white;
   text-align: center;
   padding: 25px 0;
 }
 h1{
-  color: lightcoral;
+  color: red;
 }
 </style>
